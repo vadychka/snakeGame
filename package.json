@@ -1,0 +1,17 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd my-app && npm run start",
+    "back": "cd server && npm run server",
+    "dev": "concurrently \"npm run back\" \"npm run front\" "
+  },
+  "author": "VladS",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.1.0"
+  }
+}

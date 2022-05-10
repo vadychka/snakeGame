@@ -1,0 +1,18 @@
+.registration{
+    color: wheat;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding-top: 10em;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+
+.registration__inp{
+    padding: 0.3em;
+    border-radius: 0.3em;
+    margin-right: 1em;
+    
+}

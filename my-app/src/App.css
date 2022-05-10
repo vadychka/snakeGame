@@ -1,0 +1,12 @@
+.title{
+  text-align: center;
+}
+.footer__btns{
+  text-align: center;
+  margin-top: 1em;
+}
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
