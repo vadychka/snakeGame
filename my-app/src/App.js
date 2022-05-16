@@ -15,7 +15,7 @@ function App() {
     async function getRecordArr (){
       const res = await getRecord()
       setRespons(res)
-      return res
+      // return res
     }
     getRecordArr()  
   },[])

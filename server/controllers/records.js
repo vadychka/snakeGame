@@ -27,7 +27,7 @@ module.exports.postRecord = async (req,res) => {
             res.status(400).json('invalid input')
          }
     }catch(e){
-        res.status(500).json({error:'Internal get server error'})
+        res.status(500).json({error:`Internal get server error ${e}`})
     }
 }
 
